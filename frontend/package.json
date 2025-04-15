@@ -18,6 +18,7 @@
     "@radix-ui/react-tooltip": "^1.1.8",
     "@tailwindcss/vite": "^4.0.8",
     "axios": "^1.7.9",
+    "chatify": "file:..",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "daisyui": "^4.12.23",
