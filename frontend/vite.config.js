@@ -10,4 +10,12 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  css: {
+    // Disable advanced CSS optimization
+    lightningcss: false,
+    // Use a different processor or none at all
+    preprocessorOptions: {
+      // Your preprocessor options
+    }
+  }
 })
