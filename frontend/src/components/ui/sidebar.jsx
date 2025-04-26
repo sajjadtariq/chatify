@@ -8,7 +8,7 @@ import { AiOutlineArrowLeft, AiOutlineClose } from "react-icons/ai";
 import { useIsMobile } from "@/hooks/use-mobile"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+// import { Input } from "@/components/ui/input"
 import { Separator } from "@/components/ui/separator"
 import { MdMenu } from 'react-icons/md';
 import {
@@ -305,11 +305,11 @@ function SidebarInput({
   ...props
 }) {
   return (
-    (<Input
-      data-slot="sidebar-input"
-      data-sidebar="input"
-      className={cn("bg-background h-8 w-full shadow-none", className)}
-      {...props} />)
+    // (<Input
+    //   data-slot="sidebar-input"
+    //   data-sidebar="input"
+    //   className={cn("bg-background h-8 w-full shadow-none", className)}
+    //   {...props} />)
   );
 }
 
